@@ -1,0 +1,81 @@
+<html>
+<!--This example uses the default bootstrap stylesheet-->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!--provides a full-width container that can expand or collapse based on the size of viewport-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2 col-sm-12 col-xs-12">
+            <nav id="navbar">
+                <h3>Profile Information</h3>
+                <!--content stacking for smaller screens-->
+                <ul class="nav nav-pills nav-stacked">
+                 <!--internal linking to the respective sections-->
+                    <a class="nav-link" href="#Introduction" rel="internal">
+                        <li>Introduction</li>
+                    </a>
+                    <a class="nav-link" href="#Profile" rel="internal">
+                        <li>Profile</li>
+                    </a>
+                    <a class="nav-link" href="#Education" rel="internal">
+                        <li>Education</li>
+                    </a>
+                    <a class="nav-link" href="#Work Experience" rel="internal">
+                        <li>Work Experience</li>
+                    </a>
+                    <a class="nav-link" href="#Certifications" rel="internal">
+                        <li>Certifications</li>
+                    </a>
+                 </ul>
+            </nav>
+        </div>
+        <div class="col-md-10 col-sm-12 col-xs-12">
+            <main id="main-doc">
+                <section class="main-section" id="Introduction" >
+                 <!--basic styling for the headings, better practice to do the same in a css file as the styling is same for all headers-->
+                    <h3 style = "background: black; color: white">Introduction</h3>
+                    <article>
+                    <p>Aastha Mishra, M.Tech. in Software Engineering
+                        </article>
+                </section>
+                <section class="main-section" id="Profile">
+                    <h3 style = "background: black; color: white">Profile</h3>
+                    <article>
+                        <p>Background information :</p>
+<!--creating list using html-->
+                        <li>Over 4 years of IT Industry Experience</li>
+                        <li>Working as a Big Data Developer</li>
+                        <li>Majorly working in Finance Industry Domain</li>
+                        <p>Good communication skills,interpersonal skills and a team player</p>
+                        </artice>
+                </section>
+                <section class="main-section" id="Education">
+                    <h3 style = "background: black; color: white">Education</h3>
+                    <article> <p> Dec 2022 : Masters of Technology in Software Engineering , Birla Institute of Technology & Science , Pilani </p>
+                        <p>June 2017 : Bachelor of Engineering in Information Technology , Mumbai University</p>
+                        <p>
+                        March 2013 : Higher Secondary Certificate Examination , Maharashtra State Board
+                        </p>
+                        <p>
+                        March 2011 : Secondary School Certificate Examination , Maharashtra State Board
+                        </p>
+                    </article>
+                </section>
+                <section class="main-section" id="Work Experience">
+                    <h3 style = "background: black; color: white">Work Experience</h3>
+                    <p> Nov 2021 - Till date : Senior Technical Specialist , IBM</p>
+		    <p> Mar 2021 - Nov 2021 : Senior Consultant , Saksoft Limited </p>
+		    <p> May 2018 - Mar 2021 : Application Development Analyst , Accenture Solutions Pvt. Ltd. </p>
+		    <p> Nov 2017 - May 2018 : Associate Software Engineer , Accenture Solutions Pvt. Ltd. </p>
+                </section>
+                <section class="main-section" id="Certifications">
+                    <h3 style = "background: black; color: white">Certifications</h3>
+                    <p> Informatica Certified Informatica Big Data Developer
+                    </p>
+		    <p> Oracle Certified Java Professional , Java SE 6 Programmer</p>	
+                </section>
+            </main>
+        </div>
+    </div>
+</div>
+</html>
